@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./design/design.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <header>
+    <div class="title">
+      <p id="title">Social Media Dashboard</p>
+      <p id="titleFollowers">Total Followers 23,004</p>
+    </div>
+
+    <div class="switchingCase">
+      <p id="mode">Light Mode</p>
+      <div class="button"><div class="cercle"></div></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-header">
+
+      <div class="main-header-div" id="FacebookHeader">
+        <div class="main-header-div-header">  
+          <img src="./images/icon-facebook.svg" alt="" class="logo facebook">
+          <p class="pseudo">@nathanf</p>
+        </div>
+        <p class="numberBig">1987</p>
+        <p class="followersSubcribers">Followers</p>
+        <div class="evolution">
+          <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+          <p>12 Today</p>
+        </div>
+      </div>
+
+      <div class="main-header-div" id="TwitterHeader">
+        <div class="main-header-div-header">  
+          <img src="./images/icon-twitter.svg" alt="" class="logo twitter">
+          <p class="pseudo">@nathanf</p>
+        </div>
+        <p class="numberBig">1044</p>
+        <p class="followersSubcribers">Followers</p>
+        <div class="evolution">
+          <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+          <p>99 Today</p>
+        </div>
+      </div>
+
+      <div class="main-header-div" id="InstagramHeader">
+        <div class="main-header-div-header">  
+          <img src="./images/icon-instagram.svg" alt="" class="logo instagram">
+          <p class="pseudo">@nathanf</p>
+        </div>
+        <p class="numberBig">11k</p>
+        <p class="followersSubcribers">Followers</p>
+        <div class="evolution">
+          <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+          <p>1099 Today</p>
+        </div>
+      </div>
+
+      <div class="main-header-div" id="YoutubeHeader">
+        <div class="main-header-div-header">  
+          <img src="./images/icon-youtube.svg" alt="" class="logo youtube">
+          <p class="pseudo">@nathanf</p>
+        </div>
+        <p class="numberBig">8239</p>
+        <p class="followersSubcribers">Subcribers</p>
+        <div class="evolution">
+          <img src="./images/icon-down.svg" alt="" class="arrowRed">
+          <p id="redText">144 Today</p>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="main-center">
+
+      <div><p id="titleCenter">Overview - Today</p></div>
+
+      <div class="main-center-section-global">
+
+
+        <div class="box" id="box1">
+          <div class="boxUp">
+            <p>Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">87</p>
+            <div class="down">
+              <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+              <p>3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" id="box2">
+          <div class="boxUp">
+            <p>Likes</p>
+            <img src="./images/icon-facebook.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">52</p>
+            <div class="down">
+              <img src="./images/icon-down.svg" alt="" class="arrowRed">
+              <p>3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" id="box3">
+          <div class="boxUp">
+            <p>Likes</p>
+            <img src="./images/icon-instagram.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">5462</p>
+            <div class="down">
+              <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+              <p>2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" id="box4">
+          <div class="boxUp">
+            <p>Profile Views</p>
+            <img src="./images/icon-instagram.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">52k</p>
+            <div class="down">
+              <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+              <p>1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" id="box5">
+          <div class="boxUp">
+            <p>Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">117</p>
+            <div class="down">
+              <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+              <p>303%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" id="box6">
+          <div class="boxUp">
+            <p>Likes</p>
+            <img src="./images/icon-twitter.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">507</p>
+            <div class="down">
+              <img src="./images/icon-up.svg" alt="" class="arrowGreen">
+              <p>553%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" id="box7">
+          <div class="boxUp">
+            <p>Likes</p>
+            <img src="./images/icon-youtube.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">107</p>
+            <div class="down">
+              <img src="./images/icon-down.svg" alt="" class="arrowRed">
+              <p>19%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" id="box8">
+          <div class="boxUp">
+            <p>Likes</p>
+            <img src="./images/icon-youtube.svg" alt="" class="littleLogo">
+          </div>
+          <div class="boxDown">
+            <p class="downBig">1407</p>
+            <div class="down">
+              <img src="./images/icon-down.svg" alt="" class="arrowRed">
+              <p>12%</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="a">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/alexandre-coqueraumont-715249162/" class="a">Alexandre Coqueraumont | Stanex96</a>.
+  </div>
+  <script src="./Js/theme.js"></script>
+</body>
+</html>
