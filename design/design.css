@@ -252,7 +252,7 @@ header {
 }
 
 /* Media Query for Mobile Devices */
-@media screen and (min-width: 350px) and (max-width: 750px) {
+@media screen and (min-width: 325px) and (max-width: 750px) {
     header {
         width: 90%;
         flex-direction: column;
